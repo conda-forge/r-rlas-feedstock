@@ -1,18 +1,16 @@
-{% set version = '1.1.9' %}
-
-{% set posix = 'm2-' if win else '' %}
+{% set version = '1.2.1' %}
 {% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rlas
-  version: {{ version|replace("-", "_") }}
+  version: {{ version }}
 
 source:
   fn: rlas_{{ version }}.tar.gz
   url:
     - https://cran.r-project.org/src/contrib/rlas_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: 783dcf36b58cd64ddfc73d0d35540497f61b6a939a8fa58b0c3246798e601ab1
+  sha256: 5759c39d3e2ca7d1094aa9747ac657300a0df711c4dc5dbd6cb01444da3e1a57
 
 build:
   number: 0
@@ -27,6 +25,7 @@ requirements:
     - r-base
     - r-rcpp
     - r-data.table
+    - r-uuid
     - posix  # [win]
     - {{native}}toolchain  # [win]
     - gcc  # [not win]
@@ -35,6 +34,7 @@ requirements:
     - r-base
     - r-rcpp
     - r-data.table
+    - r-uuid
     - libgcc  # [not win]
 
 test:
