@@ -14,14 +14,16 @@ Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-rlas-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-rlas-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-rlas-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-rlas-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-rlas-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-rlas-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rlas-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rlas-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-rlas-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rlas-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rlas-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rlas-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rlas/badges/version.svg)](https://anaconda.org/conda-forge/r-rlas)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-rlas/badges/downloads.svg)](https://anaconda.org/conda-forge/r-rlas)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--rlas-green.svg)](https://anaconda.org/conda-forge/r-rlas) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-rlas.svg)](https://anaconda.org/conda-forge/r-rlas) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-rlas.svg)](https://anaconda.org/conda-forge/r-rlas) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-rlas.svg)](https://anaconda.org/conda-forge/r-rlas) |
 
 Installing r-rlas
 =================
