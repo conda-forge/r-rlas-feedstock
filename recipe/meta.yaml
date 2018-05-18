@@ -1,4 +1,4 @@
-{% set version = '1.2.1' %}
+{% set version = "1.2.3" %}
 {% set native = 'm2w64-' if win else '' %}
 
 package:
@@ -10,7 +10,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/rlas_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: 5759c39d3e2ca7d1094aa9747ac657300a0df711c4dc5dbd6cb01444da3e1a57
+  sha256: ee3471ed2829f14f531d1f2f6f2172b10ef04e98170c112d9fffde0950059a6f
 
 build:
   number: 0
