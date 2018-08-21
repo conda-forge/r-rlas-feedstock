@@ -1,4 +1,4 @@
-{% set version = "1.2.4" %}
+{% set version = "1.2.7" %}
 {% set native = 'm2w64-' if win else '' %}
 
 package:
@@ -10,11 +10,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/rlas_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: be72623e601cb1343a7daacf94b4e3527623392805fdecaf779e37a2cac1518b
+  sha256: 8cd5577a6c3feddd4e5b1f93cd226fea835f7ff3cfddef3e6d7a8b6e62fbb740
 
 build:
   merge_build_host: True  # [win]
-  number: 1
+  number: 0
   script: R CMD INSTALL --build .
   skip: True  # [win32]
   rpaths:
