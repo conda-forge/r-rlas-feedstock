@@ -1,22 +1,69 @@
 About r-rlas
 ============
 
-Home: https://CRAN.R-project.org/package=rlas
+Home: https://github.com/Jean-Romain/rlas
 
 Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format is a public file format for the interchange of 3-dimensional point cloud data between data users. The LAS specifications are approved by the American Society for Photogrammetry and Remote Sensing <https
+Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format is a public file format for the interchange of 3-dimensional point cloud data between data users. The LAS specifications are approved by the American Society for Photogrammetry and Remote Sensing <https://www.asprs.org/committee-general/laser-las-file-format-exchange-activities.html>. The LAZ file format is an open and lossless compression scheme for binary LAS format versions 1.0 to 1.3 <https://www.laszip.org/>.
 
 
 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-rlas-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-rlas-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-rlas-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-rlas-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-rlas-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-rlas-feedstock/branch/master)
+
+<table><tr>
+    <td>Appveyor</td>
+    <td>
+      <a href="https://ci.appveyor.com/project/conda-forge/r-rlas-feedstock/branch/master">
+        <img alt="windows" src="https://img.shields.io/appveyor/ci/conda-forge/r-rlas-feedstock/master.svg?label=Windows">
+      </a>
+    </td>
+  </tr>
+    
+  <tr>
+    <td>Azure</td>
+    <td>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5764&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rlas-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5764&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rlas-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5764&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rlas-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=5764&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rlas-feedstock?branchName=master&jobName=win&configuration=win_" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+![ppc64le disabled](https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg)
+</table>
 
 Current release info
 ====================
@@ -49,6 +96,8 @@ conda search r-rlas --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +153,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ocefpaf](https://github.com/ocefpaf/)
+
