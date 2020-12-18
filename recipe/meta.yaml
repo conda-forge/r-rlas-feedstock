@@ -15,6 +15,7 @@ source:
 build:
   merge_build_host: true  # [win]
   script: R CMD INSTALL --build .
+  skip: true  # [r_base == "3.6" and win]
   number: 0
   rpaths:
     - lib/R/lib/
