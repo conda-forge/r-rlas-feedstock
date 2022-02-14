@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rlas_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: 6b9a8754778450ab519277d96bbbb20a5b44056266ae92cc52e3d02862bc855c
+  sha256: c94302b3ae996f2e36d6cac7422038d4fd40eb3190820bf402dce3e552b36745
 
 build:
   merge_build_host: true  # [win]
