@@ -1,11 +1,22 @@
+About r-rlas-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rlas-feedstock/blob/main/LICENSE.txt)
+
 About r-rlas
-============
+------------
 
 Home: https://github.com/Jean-Romain/rlas
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rlas-feedstock/blob/main/LICENSE.txt)
+Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format is a public file format for the interchange of 3-dimensional point cloud data between data users. The LAS specifications are approved by the American Society for Photogrammetry and Remote Sensing <https://www.asprs.org/committee-general/laser-las-file-format-exchange-activities.html>. The LAZ file format is an open and lossless compression scheme for binary LAS format versions 1.0 to 1.3 <https://www.laszip.org/>.
+About r-rlas
+------------
+
+Home: https://github.com/Jean-Romain/rlas
+
+Package license: GPL-3.0-only
 
 Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format is a public file format for the interchange of 3-dimensional point cloud data between data users. The LAS specifications are approved by the American Society for Photogrammetry and Remote Sensing <https://www.asprs.org/committee-general/laser-las-file-format-exchange-activities.html>. The LAZ file format is an open and lossless compression scheme for binary LAS format versions 1.0 to 1.3 <https://www.laszip.org/>.
 
