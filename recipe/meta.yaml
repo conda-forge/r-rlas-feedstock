@@ -1,4 +1,4 @@
-{% set version = "1.6.2" %}
+{% set version = "1.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,13 +10,13 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rlas_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rlas/rlas_{{ version }}.tar.gz
-  sha256: 99ad94d06b1566d0b491bfc95c59cbb81f4c242c13f6ecd872fe5aa46c8fb4f1
+  sha256: 11768b6f21e96905cee6c39eb980b92373afed10ab144bdbab2a7a7602fc6b29
 
 build:
   merge_build_host: true  # [win]
   script: R CMD INSTALL --build .
   skip: true  # [r_base == "3.6" and win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
