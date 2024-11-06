@@ -7,7 +7,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rlas-feedstoc
 About r-rlas
 ------------
 
-Home: https://github.com/Jean-Romain/rlas
+Home: https://github.com/r-lidar/rlas
 
 Package license: GPL-3.0-only
 
@@ -16,7 +16,7 @@ Summary: Read and write 'las' and 'laz' binary file formats. The LAS file format
 About r-rlas
 ------------
 
-Home: https://github.com/Jean-Romain/rlas
+Home: https://github.com/r-lidar/rlas
 
 Package license: GPL-3.0-only
 
