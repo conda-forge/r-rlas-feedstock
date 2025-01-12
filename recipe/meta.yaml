@@ -36,10 +36,12 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
+    - r-bh
     - r-rcpp
     - r-data.table
   run:
     - r-base
+    #- r-bh
     - r-rcpp
     - r-data.table
 
