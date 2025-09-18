@@ -14,7 +14,7 @@ source:
 build:
   script: R CMD INSTALL --build .
   skip: true  # [r_base == "3.6" and win]
-  number: 2
+  number: 3
   rpaths:
     - lib/R/lib/
     - lib/
